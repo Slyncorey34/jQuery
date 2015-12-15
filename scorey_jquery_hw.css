@@ -15,15 +15,14 @@ h1 {
 	text-align: center;
 }
 h5 {
-	color: white;
-	width: 200px;
+	color: black;
+	width: 400px;
 	height: 100px;
-	margin-left: 480px;
+	margin-left: 400px;
 	padding-top: 15px;
 	text-decoration: center;
-
 }
-/*.verbz */ul{
+ul {
 	list-style-position: none;
 	background: grey;
 	padding: 15px;
@@ -32,7 +31,7 @@ h5 {
 	margin: 0 auto;
 	border-radius: 20px;
 }
-/*.verbz */li {
+li {
 	list-style: none;
 	display: inline;
 	color: white;
@@ -52,8 +51,6 @@ a:visited {
 }
 
 img {
-	/*display:block;
-	width: 370px;*/
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;

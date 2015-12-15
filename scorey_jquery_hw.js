@@ -1,4 +1,4 @@
-$(document).ready(
+$(document).ready (
 	function(){
 
 	$(".verbz").on("click",
@@ -23,15 +23,16 @@ $(document).ready(
 		$(this).fadeOut(600);
 		$(this).fadeIn(500);
 		});
-	});
+	// });
 	
 	$(".color li").on("click", function() { 
 	$(".color li").css("background","red"); 
-	   } );
-
-
-// $(document).ready(function(){
-//     $("button").click(function(){
-//         $("p").toggle();
-//     });
-// });
+	   });
+	
+	$("h5").hover(
+	function() { 
+		$(this).css("font-size", "36px");
+		// $(this).css("font-size","smaller");	
+	
+	});
+});
